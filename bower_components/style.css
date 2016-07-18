@@ -1,10 +1,13 @@
-body {
+* {
+	font-family: 'Roboto Condensed', sans-serif
 	
 }
 
-.main {
-	
+body {
+	background-color: #191919;
+	color: #90EE90;
 }
+
 
 
 .social-media {
@@ -13,4 +16,20 @@ body {
 
 .resume-download {
 	margin-top: 50px;
+}
+
+
+.progress-bar {
+	position: relative;
+	width: 80%;
+	height: 30px;
+	margin: 5px;
+	background-color: grey;
+}
+
+#myBar {
+	position: absolute;
+    width: 75%;
+    height: 100%;
+    background-color: green;
 }
