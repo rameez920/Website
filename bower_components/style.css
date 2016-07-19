@@ -8,8 +8,6 @@ body {
 	color: #90EE90;
 }
 
-
-
 .social-media {
 	margin-top: 10px;
 }
@@ -21,10 +19,46 @@ body {
 
 .progress-bar {
 	position: relative;
-	width: 80%;
 	height: 30px;
 	margin: 5px;
 	background-color: grey;
+}
+
+.resume-button {
+	color: black;
+	background-color: #90EE90;	
+}
+
+.college-name {
+	margin-top: 5px;
+}
+
+.degree-type {
+	margin-top: 0px;
+}
+
+#java {
+	width: 75%;
+}
+
+#javascript {
+	width: 60%;
+}
+
+#html {
+	width: 60%;
+}
+
+#sql {
+	width: 25%;
+}
+
+#node {
+	width: 50%;
+}
+
+#photo {
+	margin-left: 75px;
 }
 
 #myBar {
