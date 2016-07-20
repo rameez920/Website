@@ -19,6 +19,7 @@ body {
 
 .progress-bar {
 	position: relative;
+	width: 80%;
 	height: 30px;
 	margin: 5px;
 	background-color: grey;
@@ -37,24 +38,36 @@ body {
 	margin-top: 0px;
 }
 
+.current-progress {
+	position: absolute;
+	height: 100%;
+	color: white;
+	font-weight: bold;
+}
+
 #java {
-	width: 75%;
+	width: 70%;
+	background-color: #c10000;
 }
 
 #javascript {
-	width: 60%;
+	width: 65%;
+	background-color: #9cd4df;
 }
 
 #html {
 	width: 60%;
+	background-color: #FFD700;
 }
 
 #sql {
-	width: 25%;
+	width: 30%;
+	background-color: #483D8B;
 }
 
 #node {
 	width: 50%;
+	background-color: #FF4500;
 }
 
 #photo {
@@ -66,4 +79,8 @@ body {
     width: 75%;
     height: 100%;
     background-color: green;
+}
+
+#title {
+	margin-top: 20px;
 }
