@@ -1,10 +1,23 @@
 var express = require('express');
+var fs = require('fs');
 
 var router = express.Router();
 
 
 router.get('/', function(req, res) {
-	res.render('index');
+	
+
+	fs.readFile('./files/about.txt', function(err, contents) {
+		
+		if (err) {
+			console.log(err);
+		} else {
+			var about = contents;
+			res.render('index', {bio: about});
+		}
+	
+	});
+
 });
 
 

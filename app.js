@@ -10,7 +10,7 @@ app.set('views', path.join(__dirname, 'views'));
 //middleware
 app.use(express.static(path.join(__dirname, 'bower_components')));
 app.use(express.static(path.join(__dirname, 'files')));
-app.use(express.static(path.join(__dirname, 'css')));
+
 
 
 app.use(bodyParser.urlencoded({

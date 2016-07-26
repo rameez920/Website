@@ -8,6 +8,10 @@ body {
 	color: #90EE90;
 }
 
+td {
+	padding-right: 10px;
+}
+
 .social-media {
 	margin-top: 10px;
 }
@@ -43,6 +47,8 @@ body {
 	height: 100%;
 	color: white;
 	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 5px;
 }
 
 #java {
@@ -52,12 +58,12 @@ body {
 
 #javascript {
 	width: 65%;
-	background-color: #9cd4df;
+	background-color: #00BFFF;
 }
 
 #html {
 	width: 60%;
-	background-color: #FFD700;
+	background-color: #DAA520;
 }
 
 #sql {
@@ -68,6 +74,11 @@ body {
 #node {
 	width: 50%;
 	background-color: #FF4500;
+}
+
+#jquery {
+	width: 55%;
+	background-color: #008B8B;	
 }
 
 #photo {
@@ -84,3 +95,4 @@ body {
 #title {
 	margin-top: 20px;
 }
+
